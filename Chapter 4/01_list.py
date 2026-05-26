@@ -1,10 +1,8 @@
 # LIST IN PYTHON
-# A list is a collection of multiple values stored in
-# a single variable.
-# Lists are written using square brackets [].
-# Lists are mutable (can be changed).
 
-friends = ["Sameer", "Abinash", "Sai Krishna", "1611", "278", "70707"]
+# List: is a collection of items that are ordered and changeable. Lists are defined by enclosing the items in square brackets [] and separating them with commas. They can contain elements of different data types, including strings, integers, floats, and even other lists.
+
+friends = ["Sameer", "Abinash", "Chirkut", "1611", "278", "70707"]
 
 # Accessing elements using index
 # Index starts from 0
@@ -22,16 +20,16 @@ print(friends[0:4])   # Prints elements from index 0 to 3
 # Index position explanation:
 # 0 → "Orange"
 # 1 → "Abinash"
-# 2 → "Sai Krishna"
+# 2 → "Chirkut"
 # 3 → "1611"
 # 4 → "278"
 # 5 → "70707"
 
-# Notes:
-# Lists can store different types of data (strings, numbers, etc.)
-# Example: friends list has both names (strings) and numbers (as strings).
-# You can also have nested lists (lists inside lists). For example: nested_list = [1, 2, [3, 4], 5] where [3, 4] is a list inside the main list.
-# List slicing can also be done with a step parameter: list[start:end:step]. For example, friends[0:6:2] will give you ['Orange', 'Sai Krishna', '278'], which includes elements at index 0, 2, and 4.
-# Remember that the end index is not included in the slice, so friends[0:4] will give you ['Orange', 'Abinash', 'Sai Krishna', '1611'] and does not include the element at index 4 (which is '278').
-# Lists are mutable, so you can change the value of an element by assigning a new value to that index. For example, friends[1] = "Banana" will change the second element from "Abinash" to "Banana".
-# You can also add new elements to a list using the append() method. For example, friends.append("New Friend") will add "New Friend" to the end of the list.
+# Explanation:
+# 1. A list is a collection of items that can be of different data types.
+# 2. Lists are ordered, meaning that the items have a defined order and can be accessed using their index.
+# 3. Lists are mutable, which means you can change their content after they have been created.
+# 4. You can access individual elements of a list using their index, and you can also slice the list to get a subset of its elements.
+# 5. The index of a list starts from 0, so the first element is at index 0, the second element is at index 1, and so on. The end index in slicing is exclusive, meaning it does not include the element at the end index.
+
+# Note: Lists can also contain other lists, which are called nested lists. For example, you can have a list like this: nested_list = [1, 2, [3, 4], 5]. In this case, the element at index 2 is itself a list containing the elements 3 and 4. You can access the elements of the nested list using additional indexing, such as nested_list[2][0] to access the element 3.

@@ -1,8 +1,6 @@
 # NEGATIVE SLICING IN STRINGS
-# Negative indexing starts from the end of the string.
-# -1 means last character
-# -2 means second last character
-# and so on...
+
+# Negative slicing: is a way to slice a string using negative indices. Negative indices count from the end of the string, with -1 being the last character, -2 being the second last character, and so on.
 
 name = "Sameer"
 

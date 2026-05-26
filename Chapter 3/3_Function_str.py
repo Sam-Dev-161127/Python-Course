@@ -1,6 +1,6 @@
 # STRING FUNCTIONS (STRING METHODS)
-# String methods are built-in functions used to
-# perform operations on strings.
+
+# String functions (methods): are built-in functions that can be called on string objects to perform specific operations or manipulations on the string. These methods allow you to modify, analyze, and work with strings in various ways.
 
 name = "sameer"
 

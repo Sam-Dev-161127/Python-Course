@@ -1,9 +1,6 @@
 # DICTIONARY IN PYTHON
-# A dictionary stores data in key : value pairs.
-# It is written using curly brackets {}.
-# Keys must be unique.
-# Dictionaries are mutable (can be changed).
 
+# Dictionary: is a collection of key-value pairs that are unordered, changeable, and indexed. Dictionaries are defined by enclosing the items in curly braces {} and separating the key-value pairs with commas. Each key is separated from its value by a colon (:). Keys must be unique and immutable (like strings or numbers), while values can be of any data type and can be duplicated.
 
 # Empty Dictionary
 Name = {}  
@@ -35,9 +32,12 @@ Word = input("Enter the word which you want meaning: ")
 # Printing meaning using dictionary
 print("Meaning is:", Words[Word])
 
-# Notes:
-# - You can also have nested dictionaries (dictionaries inside dictionaries). For example: nested_dict = {"person1": {"name": "Sameer", "age": 25}, "person2": {"name": "Dibya", "age": 30}} where each key (person1 and person2) has a dictionary as its value.
-# - To check if a key exists in a dictionary, you can use the 'in' keyword. For example, "Sameer" in Marks will return True because "Sameer" is a key in the Marks dictionary.
-# - You can also add new key-value pairs to a dictionary. For example, Marks["Rohan"] = 88 will add a new key "Rohan" with the value 88 to the Marks dictionary.
-# - To remove a key-value pair from a dictionary, you can use the del keyword. For example, del Marks["Dibya"] will remove the key "Dibya" and its associated value from the Marks dictionary.
-# - You can also use the get() method to access values in a dictionary. For example, Marks.get("Sameer") will return 99, and Marks.get("Dibya") will return None since "Dibya" has been removed from the dictionary. The get() method is useful because it does not raise an error if the key does not exist, unlike using square brackets which would raise a KeyError.
+# Explanation:
+# 1. A dictionary is a collection of key-value pairs where each key is unique and is used to access its corresponding value.
+# 2. Dictionaries are defined using curly braces {} and key-value pairs are separated by commas. Each key is separated from its value by a colon (:).
+# 3. You can access the value of a dictionary by using its key. For example, Marks["Sameer"] will return the value 99, which is the mark of Sameer.
+# 4. Dictionaries are unordered, which means that the items do not have a defined order and cannot be accessed by index like lists or tuples. Instead, you access values using their keys.
+# 5. Dictionaries are mutable, which means you can change their content after they have been created. You can add new key-value pairs, modify existing values, or remove key-value pairs from the dictionary.
+# 6. In the example of the Hindi to English word dictionary, we take input from the user and use that input as a key to access the corresponding value (meaning) from the dictionary.
+
+# Note: When accessing a value using a key, if the key does not exist in the dictionary, it will raise a KeyError. To avoid this, you can use the get() method of the dictionary, which returns None (or a specified default value) if the key is not found. For example, Words.get(Word) will return the meaning if the word exists in the dictionary or None if it does not exist. You can also provide a default value like Words.get(Word, "Word not found") to return "Word not found" if the key is not present in the dictionary.

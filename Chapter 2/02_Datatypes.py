@@ -1,4 +1,6 @@
-# A data type tells Python what kind of value a variable is storing.
+# DATA TYPES IN PYTHON
+
+# Data types: are the classification of data that tells the interpreter how to handle and store the data. Common data types in Python include integers, floating-point numbers, strings, booleans, and NoneType.
 x = 100  # x is an integer
 
 y = -45  # y is also an integer (negative number)

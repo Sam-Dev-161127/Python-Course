@@ -1,6 +1,6 @@
 # STRING IN PYTHON
-# A string is a sequence of characters written inside quotes.
-# Strings are immutable (cannot be changed after creation).
+
+# String: is a sequence of characters enclosed in quotes. It can be created using single quotes (' '), double quotes (" "), or triple quotes (''' ''' or """ """). Strings are immutable, meaning they cannot be changed after they are created.
 
 name = "Sameer"   # name is a string
 

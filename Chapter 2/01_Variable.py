@@ -1,4 +1,6 @@
-# Variables are used to store data in a program. They can hold different types of data such as numbers, text, and more. In Python, you can create a variable by simply assigning a value to it using the equals sign (=).
+# VARIABLES IN PYTHON
+
+# Variables: are used to store data in a program. They can hold different types of data such as numbers, text, and more. In Python, you can create a variable by simply assigning a value to it using the equals sign (=).
 
 age = 15 # This line creates a variable named 'age' and assigns it the value of 15. The variable 'age' can now be used to store the age of a person or any other relevant information in the program.
 

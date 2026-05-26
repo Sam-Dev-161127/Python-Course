@@ -1,4 +1,5 @@
 # INPUT FUNCTION IN PYTHON
+
 # input() is used to take data from the user.
 # By default, input() always returns data as a string.
 # So we use int() to convert it into an integer.

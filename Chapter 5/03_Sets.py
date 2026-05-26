@@ -1,7 +1,6 @@
 # SET IN PYTHON
-# A set is a collection of unique elements.
-# It does not allow duplicates.
-# It is unordered and does not support indexing.
+
+# Set: is a collection of unique items that are unordered and unindexed. Sets are defined by enclosing the items in curly braces {} and separating them with commas. Sets do not allow duplicate values, and they do not maintain any order of the elements.
 
 numbers = {10, 20, 30, 10, 40, 20}
 
@@ -33,7 +32,11 @@ print("Length of set:", len(numbers))
 # Checking type
 print("Type of numbers:", type(numbers))
 
-# Notes:
-# - Sets are useful when you want to store a collection of unique items and do not care about the order of elements. For example, you can use a set to store unique tags for a blog post or unique user IDs in a system.
-# - Since sets are unordered, you cannot access elements by index. If you need to access elements in a specific order, you can convert the set to a list using list() function. For example, sorted_numbers = sorted(numbers) will give you a sorted list of the unique numbers in the set.
-# - Remember that sets are mutable, so you can add or remove elements from a set after it has been created. However, since sets do not allow duplicates, adding an element that already exists in the set will not change the set. For example, numbers.add(30) will not change the set since 30 is already present in the set.
+# Explanation:
+# 1. A set is a collection of unique items, which means that it automatically removes duplicate values. In the example, the numbers 10 and 20 are repeated, but the set will only keep one instance of each, resulting in a set that contains {10, 20, 30, 40}.
+# 2. Sets are unordered, which means that the elements do not have a defined order and cannot be accessed by index. When you print the set, the order of the elements may not be the same as the order in which they were added.
+# 3. To create an empty set, you must use the set() function, as using empty curly braces {} will create an empty dictionary instead of a set.
+# 4. You can add elements to a set using the add() method, and you can remove elements using the remove() method, which will raise an error if the element is not found. The discard() method can also be used to remove elements, but it will not raise an error if the element is not present in the set.
+# 5. You can check for membership in a set using the 'in' keyword, and you can get the length of a set using the len() function. The type() function can be used to confirm that the variable is indeed a set.
+
+# Note: Sets are useful when you want to store a collection of unique items and perform operations like union, intersection, and difference. They are also commonly used for membership testing and eliminating duplicate entries from a list or other iterable. However, since sets are unordered, they do not support indexing or slicing like lists or tuples. If you need an ordered collection of unique items, you can use a list or a tuple instead.

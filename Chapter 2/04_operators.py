@@ -1,7 +1,6 @@
-
 # OPERATORS IN PYTHON
-# An operator is a symbol that performs an operation
-# on variables or values.
+
+# Operators: are special symbols that perform specific operations on operands (variables and values). They are used to manipulate data and variables in various ways. Python has several types of operators, including arithmetic, assignment, comparison, logical, membership, and identity operators.
 
 
 

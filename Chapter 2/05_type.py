@@ -1,5 +1,6 @@
 # TYPE CONVERSION (TYPE CASTING)
-# Type conversion means changing one data type into another.
+
+# Type conversion: is the process of converting a value from one data type to another. This can be done implicitly (automatically by Python) or explicitly (manually by the programmer).
 
 # a is a string because it is inside quotes
 a = "32.2"
