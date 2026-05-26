@@ -1,4 +1,4 @@
-# Python Course
+# Python Course.
 
 A beginner-to-advanced Python course covering fundamentals, object-oriented programming, advanced concepts, practice programs, and mini projects. Perfect for students starting their coding journey and aspiring to build real-world Python projects.
 
