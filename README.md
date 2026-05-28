@@ -615,7 +615,7 @@ If this repository helped you:
 
 <div align="center">
 
-# Sam
+# Sameer Patra
 
 ### 🚀 Future Engineer • Python Learner • Builder
 
